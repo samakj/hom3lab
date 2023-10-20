@@ -1,0 +1,16 @@
+# Python
+venv
+bin
+include
+lib
+lib64
+
+# Javascript
+node_modules
+build
+
+# Byte-compiled / optimized / DLL files
+.idea/
+__pycache__/
+.mypy_cache/
+*.py[cod]
