@@ -4,13 +4,33 @@
     "iot": { "name": "iot" }
   },
   "tables": {
-    "users": {
-      "schema": "authorisation",
-      "name": "user"
+    "devices": {
+      "schema": "iot",
+      "name": "devices"
+    },
+    "locations": {
+      "schema": "iot",
+      "name": "locations"
+    },
+    "logs": {
+      "schema": "iot",
+      "name": "logs"
+    },
+    "measurements": {
+      "schema": "iot",
+      "name": "measurements"
+    },
+    "metrics": {
+      "schema": "iot",
+      "name": "metrics"
     },
     "sessions": {
       "schema": "authorisation",
       "name": "sessions"
+    },
+    "users": {
+      "schema": "authorisation",
+      "name": "user"
     }
   }
 }
