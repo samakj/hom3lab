@@ -1,0 +1,1 @@
+alias hom3lab="python ${PWD/\/hom3lab\/*//hom3lab}/cli"

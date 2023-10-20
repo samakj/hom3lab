@@ -15,5 +15,11 @@ __pycache__/
 .mypy_cache/
 *.py[cod]
 
+# IDE
+.vscode/
+
 # Secrets
 config/secrets.json
+
+# Postgres
+services/postgres/patches/build

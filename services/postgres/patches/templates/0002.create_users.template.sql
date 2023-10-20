@@ -1,0 +1,1 @@
+CREATE USER {secrets.api.username} WITH PASSWORD '{secrets.api.password}';

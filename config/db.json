@@ -1,0 +1,16 @@
+{
+  "schema": {
+    "authorisation": { "name": "authorisation" },
+    "iot": { "name": "iot" }
+  },
+  "tables": {
+    "users": {
+      "schema": "authorisation",
+      "name": "user"
+    },
+    "sessions": {
+      "schema": "authorisation",
+      "name": "sessions"
+    }
+  }
+}

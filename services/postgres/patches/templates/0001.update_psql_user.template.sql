@@ -1,0 +1,1 @@
+ALTER USER {secrets.postgres.username} PASSWORD '{secrets.postgres.password}';
