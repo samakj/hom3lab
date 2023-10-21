@@ -1,0 +1,26 @@
+version: '3.8'
+services: 
+  postgres:
+    image: postgres:latest
+    container_name: posgres 
+    restart: always
+    environment:
+      - POSTGRES_USER={secrets.postgres.username}
+      - POSTGRES_PASSWORD={secrets.postgres.password}
+    ports:
+      - target: 5432
+        published: {services.postgres.port}
+    volumes:
+      # Initialisation transactions
+      - type: bind
+        source: ./patches/build
+        target: /docker-entrypoint-initdb.d
+        read_only: true
+      # Live postgres data
+      - type: bind
+        source: ./data
+        target: /var/lib/postgresql/data
+      # CSV dumps of postgres data
+      - type: bind
+        source: ./dumps
+        target: /var/lib/postgresql/dumps

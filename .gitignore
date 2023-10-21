@@ -20,6 +20,3 @@ __pycache__/
 
 # Secrets
 config/secrets.json
-
-# Postgres
-services/postgres/patches/build

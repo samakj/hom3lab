@@ -46,6 +46,14 @@ def load_flat_secrets_config() -> dict[str, Any]:
     return flattern_dict(load_secrets_config(), prefix="secrets")
 
 
+def load_services_config() -> dict[str, Any]:
+    return load_json_config_file("services.json")
+
+
+def load_flat_services_config() -> dict[str, Any]:
+    return flattern_dict(load_services_config(), prefix="services")
+
+
 def apply_configs(
     input_path: Union[Path, str],
     output_path: Union[Path, str],
@@ -61,20 +69,18 @@ def apply_configs(
     with open(file=input_path, mode="r") as input_file:
         output_text = input_file.read()
 
-    for key, value in load_flat_db_config().items():
-        output_text = output_text.replace(
-            f"{template_prefix}{key}{template_suffix}", str(value)
-        )
+    configs = [
+        load_flat_db_config(),
+        load_flat_secrets_config(),
+        load_flat_services_config(),
+        flattern_dict(extra_config),
+    ]
 
-    for key, value in load_flat_secrets_config().items():
-        output_text = output_text.replace(
-            f"{template_prefix}{key}{template_suffix}", str(value)
-        )
-
-    for key, value in flattern_dict(extra_config).items():
-        output_text = output_text.replace(
-            f"{template_prefix}{key}{template_suffix}", str(value)
-        )
+    for config in configs:
+        for key, value in config.items():
+            output_text = output_text.replace(
+                f"{template_prefix}{key}{template_suffix}", str(value)
+            )
 
     with open(file=output_path, mode="w") as output_file:
         output_file.write(output_text)
