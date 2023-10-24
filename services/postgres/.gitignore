@@ -1,4 +1,5 @@
 data
 dumps
 patches/build
+postgres.conf
 docker-compose.yml

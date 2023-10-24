@@ -33,6 +33,20 @@ def build_patches() -> None:
 
 
 @postgres.command()
+def build_config() -> None:
+    input_path = root_folder / "services/postgres/postgres.template.conf"
+    output_path = root_folder / "services/postgres/postgres.conf"
+
+    apply_configs(
+        input_path=input_path,
+        output_path=output_path,
+        template_prefix="{",
+        template_suffix="}",
+    )
+    print(f"Postgres | postgres.conf built.")
+
+
+@postgres.command()
 def build_docker_compose() -> None:
     input_path = root_folder / "services/postgres/docker-compose.template.yml"
     output_path = root_folder / "services/postgres/docker-compose.yml"
@@ -72,6 +86,7 @@ def build_dumps_folder() -> None:
 @click.pass_context
 def build(ctx: click.Context) -> None:
     build_patches.invoke(ctx=ctx)
+    build_config.invoke(ctx=ctx)
     build_docker_compose.invoke(ctx=ctx)
     build_data_folder.invoke(ctx=ctx)
     build_dumps_folder.invoke(ctx=ctx)

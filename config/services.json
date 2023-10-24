@@ -1,3 +1,20 @@
 {
-  "postgres": { "port": 10000 }
+  "authorisation": {
+    "name": "authorisation",
+    "host": "localhost",
+    "internal_port": 8080,
+    "external_port": 10001
+  },
+  "postgres": {
+    "name": "postgres",
+    "host": "localhost",
+    "internal_port": 5432,
+    "external_port": 10000
+  },
+  "redis": {
+    "name": "redis",
+    "host": "localhost",
+    "internal_port": 6379,
+    "external_port": 10002
+  }
 }
