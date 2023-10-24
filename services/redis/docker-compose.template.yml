@@ -10,10 +10,10 @@ services:
     volumes:
       # Add config
       - type: bind
-        source: ./redis.conf
+        source: {folders.services}/redis/redis.conf
         target: /usr/local/etc/redis/redis.conf
         read_only: true
       # Live redis data
       - type: bind
-        source: ./data
+        source: {folders.services}/redis/data
         target: /data

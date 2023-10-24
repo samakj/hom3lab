@@ -14,19 +14,19 @@ services:
     volumes:
       # Add config
       - type: bind
-        source: ./postgresql.conf
+        source: {folders.services}/postgres/postgres.conf
         target: /var/lib/postgresql/config/postgresql.conf
         read_only: true
       # Initialisation transactions
       - type: bind
-        source: ./patches/build
+        source: {folders.services}/postgres/patches/build
         target: /docker-entrypoint-initdb.d
         read_only: true
       # Live postgres data
       - type: bind
-        source: ./data
+        source: {folders.services}/postgres/data
         target: /var/lib/postgresql/data
       # CSV dumps of postgres data
       - type: bind
-        source: ./dumps
+        source: {folders.services}/postgres/dumps
         target: /var/lib/postgresql/dumps

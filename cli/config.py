@@ -54,12 +54,19 @@ def load_flat_services_config() -> dict[str, Any]:
     return flattern_dict(load_services_config(), prefix="services")
 
 
+def load_flat_folders_config() -> dict[str, Any]:
+    return {
+        "folders.root": str(root_folder),
+        "folders.services": str(root_folder / "services"),
+    }
+
+
 def apply_configs(
     input_path: Union[Path, str],
     output_path: Union[Path, str],
     template_prefix: str = "",
     template_suffix: str = "",
-    extra_config: dict[str, any] = {},
+    extra_config: dict[str, Any] = {},
 ) -> None:
     output_text = ""
 
@@ -73,6 +80,7 @@ def apply_configs(
         load_flat_db_config(),
         load_flat_secrets_config(),
         load_flat_services_config(),
+        load_flat_folders_config(),
         flattern_dict(extra_config),
     ]
 
