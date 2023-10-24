@@ -1,0 +1,19 @@
+version: '3.8'
+services: 
+  {services.redis.name}:
+    image: redis:latest
+    container_name: {services.redis.name} 
+    restart: always
+    ports:
+      - target: {services.redis.internal_port}
+        published: {services.redis.external_port}
+    volumes:
+      # Add config
+      - type: bind
+        source: ./redis.conf
+        target: /usr/local/etc/redis/redis.conf
+        read_only: true
+      # Live redis data
+      - type: bind
+        source: ./data
+        target: /data
