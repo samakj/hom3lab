@@ -1,0 +1,13 @@
+asyncio
+asyncpg
+black
+click
+fastapi
+flake8
+httpx
+mypy
+passlib
+pyjwt
+redis
+setuptools
+uvicorn[standard]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "master-bedroom",
+    "tags": ["house", "upstairs", "master", "bedroom"]
+  },
+  {
+    "id": 2,
+    "name": "baby-room",
+    "tags": ["house", "upstairs", "baby", "bedroom"]
+  },
+  {
+    "id": 3,
+    "name": "camera-room",
+    "tags": ["house", "upstairs", "camera", "bedroom"]
+  },
+  {
+    "id": 4,
+    "name": "upstairs-bathroom",
+    "tags": ["house", "upstairs", "bathroom"]
+  },
+  {
+    "id": 5,
+    "name": "upstairs-toilet",
+    "tags": ["house", "upstairs", "toilet"]
+  },
+  {
+    "id": 6,
+    "name": "upstairs-hallway",
+    "tags": ["house", "upstairs", "hallway"]
+  },
+  { "id": 7, "name": "attic", "tags": ["house", "upstairs", "attic"] },
+  {
+    "id": 8,
+    "name": "downstairs-hallway",
+    "tags": ["house", "downstairs", "hallway"]
+  },
+  { "id": 9, "name": "study", "tags": ["house", "downstairs", "study"] },
+  { "id": 10, "name": "kitchen", "tags": ["house", "downstairs", "kitchen"] },
+  {
+    "id": 11,
+    "name": "downstairs-toilet",
+    "tags": ["house", "downstairs", "toilet"]
+  },
+  {
+    "id": 12,
+    "name": "sheps-lobby",
+    "tags": ["house", "downstairs", "sheps-lobby"]
+  },
+  {
+    "id": 13,
+    "name": "living-room",
+    "tags": ["house", "downstairs", "living-room"]
+  },
+  {
+    "id": 14,
+    "name": "conservatory",
+    "tags": ["house", "downstairs", "conservatory"]
+  },
+  { "id": 15, "name": "garden", "tags": ["outside", "garden"] },
+  {
+    "id": 18,
+    "name": "front-shed",
+    "tags": ["outside", "garden", "shed", "front-shed"]
+  },
+  {
+    "id": 19,
+    "name": "back-shed",
+    "tags": ["outside", "garden", "shed", "back-shed"]
+  },
+  { "id": 20, "name": "porch", "tags": ["outside", "porch"] },
+  { "id": 21, "name": "driveway", "tags": ["outside", "driveway"] },
+  { "id": 22, "name": "alley", "tags": ["outside", "alley"] }
+]

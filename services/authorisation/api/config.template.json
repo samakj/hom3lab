@@ -1,0 +1,22 @@
+{
+  "secret": "{secrets.secret}",
+  "algorithm": "{secrets.algorithm}",
+  "db": {
+    "host": "{services.postgres.name}",
+    "port": "{services.postgres.internal_port}",
+    "user": "{secrets.authorisation.username}",
+    "password": "{secrets.authorisation.password}",
+    "tables": {
+      "users": "{db.tables.users.schema}.{db.tables.users.name}",
+      "sessions": "{db.tables.sessions.schema}.{db.tables.sessions.name}"
+    }
+  },
+  "cache": {
+    "host": "{services.redis.name}",
+    "port": "{services.redis.internal_port}",
+    "alias": {
+      "{services.authorisation.name}:{services.authorisation.port}": "{services.authorisation.name}",
+      "{services.authorisation.name}.{services.authorisation.host}": "{services.authorisation.name}"
+    }
+  }
+}

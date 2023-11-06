@@ -1,0 +1,15 @@
+version: '3.8'
+services: 
+  {services.authorisation.name}:
+    container_name: {services.authorisation.name} 
+    restart: always
+    build:
+      context: {folders.services}/authorisation/api
+    environment:
+      - AUTHORISATION_API_PORT={services.authorisation.internal_port}
+    ports:
+      - target: {services.authorisation.internal_port}
+        published: {services.authorisation.external_port}
+    depends_on:
+      - {services.postgres.name}
+      - {services.redis.name}

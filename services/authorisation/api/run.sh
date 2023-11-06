@@ -1,0 +1,1 @@
+uvicorn main:app --reload --port=$AUTHORISATION_API_PORT

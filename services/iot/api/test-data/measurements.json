@@ -1,0 +1,1811 @@
+[
+  {
+    "id": 1,
+    "timestamp": 1699268678,
+    "device_id": 5,
+    "location_id": 8,
+    "metric_id": 9,
+    "tags": [],
+    "value": 30
+  },
+  {
+    "id": 2,
+    "timestamp": 1699268678,
+    "device_id": 3,
+    "location_id": 6,
+    "metric_id": 4,
+    "tags": [],
+    "value": 11
+  },
+  {
+    "id": 3,
+    "timestamp": 1699268678,
+    "device_id": 7,
+    "location_id": 8,
+    "metric_id": 4,
+    "tags": [],
+    "value": 98
+  },
+  {
+    "id": 4,
+    "timestamp": 1699268679,
+    "device_id": 9,
+    "location_id": 6,
+    "metric_id": 3,
+    "tags": [],
+    "value": 94
+  },
+  {
+    "id": 5,
+    "timestamp": 1699268679,
+    "device_id": 4,
+    "location_id": 4,
+    "metric_id": 2,
+    "tags": [],
+    "value": 95
+  },
+  {
+    "id": 6,
+    "timestamp": 1699268679,
+    "device_id": 4,
+    "location_id": 1,
+    "metric_id": 6,
+    "tags": [],
+    "value": true
+  },
+  {
+    "id": 7,
+    "timestamp": 1699268679,
+    "device_id": 1,
+    "location_id": 6,
+    "metric_id": 3,
+    "tags": [],
+    "value": 57
+  },
+  {
+    "id": 8,
+    "timestamp": 1699268680,
+    "device_id": 10,
+    "location_id": 10,
+    "metric_id": 1,
+    "tags": [],
+    "value": 25
+  },
+  {
+    "id": 9,
+    "timestamp": 1699268681,
+    "device_id": 5,
+    "location_id": 5,
+    "metric_id": 9,
+    "tags": [],
+    "value": 39
+  },
+  {
+    "id": 10,
+    "timestamp": 1699268681,
+    "device_id": 8,
+    "location_id": 4,
+    "metric_id": 2,
+    "tags": [],
+    "value": 97
+  },
+  {
+    "id": 11,
+    "timestamp": 1699268680,
+    "device_id": 8,
+    "location_id": 1,
+    "metric_id": 10,
+    "tags": [],
+    "value": 62
+  },
+  {
+    "id": 12,
+    "timestamp": 1699268680,
+    "device_id": 7,
+    "location_id": 7,
+    "metric_id": 10,
+    "tags": [],
+    "value": 53
+  },
+  {
+    "id": 13,
+    "timestamp": 1699268681,
+    "device_id": 6,
+    "location_id": 6,
+    "metric_id": 8,
+    "tags": [],
+    "value": 32
+  },
+  {
+    "id": 14,
+    "timestamp": 1699268681,
+    "device_id": 3,
+    "location_id": 4,
+    "metric_id": 3,
+    "tags": [],
+    "value": 93
+  },
+  {
+    "id": 15,
+    "timestamp": 1699268682,
+    "device_id": 7,
+    "location_id": 5,
+    "metric_id": 8,
+    "tags": [],
+    "value": 14
+  },
+  {
+    "id": 16,
+    "timestamp": 1699268681,
+    "device_id": 5,
+    "location_id": 7,
+    "metric_id": 3,
+    "tags": [],
+    "value": 47
+  },
+  {
+    "id": 17,
+    "timestamp": 1699268681,
+    "device_id": 2,
+    "location_id": 8,
+    "metric_id": 4,
+    "tags": [],
+    "value": 83
+  },
+  {
+    "id": 18,
+    "timestamp": 1699268681,
+    "device_id": 5,
+    "location_id": 5,
+    "metric_id": 6,
+    "tags": [],
+    "value": false
+  },
+  {
+    "id": 19,
+    "timestamp": 1699268681,
+    "device_id": 10,
+    "location_id": 2,
+    "metric_id": 7,
+    "tags": [],
+    "value": 98
+  },
+  {
+    "id": 20,
+    "timestamp": 1699268682,
+    "device_id": 8,
+    "location_id": 9,
+    "metric_id": 2,
+    "tags": [],
+    "value": 25
+  },
+  {
+    "id": 21,
+    "timestamp": 1699268679,
+    "device_id": 1,
+    "location_id": 3,
+    "metric_id": 1,
+    "tags": [],
+    "value": 7
+  },
+  {
+    "id": 22,
+    "timestamp": 1699268679,
+    "device_id": 3,
+    "location_id": 9,
+    "metric_id": 5,
+    "tags": [],
+    "value": 92
+  },
+  {
+    "id": 23,
+    "timestamp": 1699268680,
+    "device_id": 1,
+    "location_id": 5,
+    "metric_id": 6,
+    "tags": [],
+    "value": true
+  },
+  {
+    "id": 24,
+    "timestamp": 1699268680,
+    "device_id": 3,
+    "location_id": 5,
+    "metric_id": 9,
+    "tags": [],
+    "value": 42
+  },
+  {
+    "id": 25,
+    "timestamp": 1699268681,
+    "device_id": 6,
+    "location_id": 10,
+    "metric_id": 8,
+    "tags": [],
+    "value": 70
+  },
+  {
+    "id": 26,
+    "timestamp": 1699268680,
+    "device_id": 4,
+    "location_id": 4,
+    "metric_id": 3,
+    "tags": [],
+    "value": 91
+  },
+  {
+    "id": 27,
+    "timestamp": 1699268681,
+    "device_id": 10,
+    "location_id": 8,
+    "metric_id": 5,
+    "tags": [],
+    "value": 37
+  },
+  {
+    "id": 28,
+    "timestamp": 1699268681,
+    "device_id": 4,
+    "location_id": 5,
+    "metric_id": 4,
+    "tags": [],
+    "value": 91
+  },
+  {
+    "id": 29,
+    "timestamp": 1699268682,
+    "device_id": 3,
+    "location_id": 9,
+    "metric_id": 3,
+    "tags": [],
+    "value": 98
+  },
+  {
+    "id": 30,
+    "timestamp": 1699268683,
+    "device_id": 8,
+    "location_id": 6,
+    "metric_id": 6,
+    "tags": [],
+    "value": true
+  },
+  {
+    "id": 31,
+    "timestamp": 1699268681,
+    "device_id": 9,
+    "location_id": 6,
+    "metric_id": 7,
+    "tags": [],
+    "value": 86
+  },
+  {
+    "id": 32,
+    "timestamp": 1699268681,
+    "device_id": 10,
+    "location_id": 10,
+    "metric_id": 4,
+    "tags": [],
+    "value": 91
+  },
+  {
+    "id": 33,
+    "timestamp": 1699268682,
+    "device_id": 9,
+    "location_id": 10,
+    "metric_id": 3,
+    "tags": [],
+    "value": 63
+  },
+  {
+    "id": 34,
+    "timestamp": 1699268682,
+    "device_id": 10,
+    "location_id": 2,
+    "metric_id": 3,
+    "tags": [],
+    "value": 77
+  },
+  {
+    "id": 35,
+    "timestamp": 1699268683,
+    "device_id": 4,
+    "location_id": 6,
+    "metric_id": 8,
+    "tags": [],
+    "value": 93
+  },
+  {
+    "id": 36,
+    "timestamp": 1699268682,
+    "device_id": 6,
+    "location_id": 6,
+    "metric_id": 5,
+    "tags": [],
+    "value": 49
+  },
+  {
+    "id": 37,
+    "timestamp": 1699268683,
+    "device_id": 7,
+    "location_id": 1,
+    "metric_id": 3,
+    "tags": [],
+    "value": 5
+  },
+  {
+    "id": 38,
+    "timestamp": 1699268683,
+    "device_id": 3,
+    "location_id": 1,
+    "metric_id": 8,
+    "tags": [],
+    "value": 15
+  },
+  {
+    "id": 39,
+    "timestamp": 1699268683,
+    "device_id": 6,
+    "location_id": 8,
+    "metric_id": 9,
+    "tags": [],
+    "value": 31
+  },
+  {
+    "id": 40,
+    "timestamp": 1699268683,
+    "device_id": 1,
+    "location_id": 5,
+    "metric_id": 9,
+    "tags": [],
+    "value": 44
+  },
+  {
+    "id": 41,
+    "timestamp": 1699268680,
+    "device_id": 2,
+    "location_id": 10,
+    "metric_id": 9,
+    "tags": [],
+    "value": 99
+  },
+  {
+    "id": 42,
+    "timestamp": 1699268680,
+    "device_id": 8,
+    "location_id": 3,
+    "metric_id": 9,
+    "tags": [],
+    "value": 79
+  },
+  {
+    "id": 43,
+    "timestamp": 1699268680,
+    "device_id": 7,
+    "location_id": 9,
+    "metric_id": 4,
+    "tags": [],
+    "value": 85
+  },
+  {
+    "id": 44,
+    "timestamp": 1699268681,
+    "device_id": 9,
+    "location_id": 5,
+    "metric_id": 3,
+    "tags": [],
+    "value": 15
+  },
+  {
+    "id": 45,
+    "timestamp": 1699268681,
+    "device_id": 1,
+    "location_id": 6,
+    "metric_id": 4,
+    "tags": [],
+    "value": 50
+  },
+  {
+    "id": 46,
+    "timestamp": 1699268681,
+    "device_id": 10,
+    "location_id": 3,
+    "metric_id": 10,
+    "tags": [],
+    "value": 99
+  },
+  {
+    "id": 47,
+    "timestamp": 1699268681,
+    "device_id": 5,
+    "location_id": 10,
+    "metric_id": 1,
+    "tags": [],
+    "value": 21
+  },
+  {
+    "id": 48,
+    "timestamp": 1699268682,
+    "device_id": 7,
+    "location_id": 7,
+    "metric_id": 9,
+    "tags": [],
+    "value": 74
+  },
+  {
+    "id": 49,
+    "timestamp": 1699268682,
+    "device_id": 7,
+    "location_id": 2,
+    "metric_id": 9,
+    "tags": [],
+    "value": 13
+  },
+  {
+    "id": 50,
+    "timestamp": 1699268683,
+    "device_id": 10,
+    "location_id": 9,
+    "metric_id": 2,
+    "tags": [],
+    "value": 73
+  },
+  {
+    "id": 51,
+    "timestamp": 1699268682,
+    "device_id": 1,
+    "location_id": 10,
+    "metric_id": 2,
+    "tags": [],
+    "value": 95
+  },
+  {
+    "id": 52,
+    "timestamp": 1699268682,
+    "device_id": 1,
+    "location_id": 3,
+    "metric_id": 1,
+    "tags": [],
+    "value": 54
+  },
+  {
+    "id": 53,
+    "timestamp": 1699268683,
+    "device_id": 2,
+    "location_id": 9,
+    "metric_id": 8,
+    "tags": [],
+    "value": 60
+  },
+  {
+    "id": 54,
+    "timestamp": 1699268683,
+    "device_id": 1,
+    "location_id": 9,
+    "metric_id": 5,
+    "tags": [],
+    "value": 8
+  },
+  {
+    "id": 55,
+    "timestamp": 1699268684,
+    "device_id": 1,
+    "location_id": 5,
+    "metric_id": 10,
+    "tags": [],
+    "value": 15
+  },
+  {
+    "id": 56,
+    "timestamp": 1699268683,
+    "device_id": 6,
+    "location_id": 5,
+    "metric_id": 8,
+    "tags": [],
+    "value": 72
+  },
+  {
+    "id": 57,
+    "timestamp": 1699268683,
+    "device_id": 2,
+    "location_id": 1,
+    "metric_id": 1,
+    "tags": [],
+    "value": 95
+  },
+  {
+    "id": 58,
+    "timestamp": 1699268684,
+    "device_id": 3,
+    "location_id": 10,
+    "metric_id": 6,
+    "tags": [],
+    "value": false
+  },
+  {
+    "id": 59,
+    "timestamp": 1699268684,
+    "device_id": 7,
+    "location_id": 7,
+    "metric_id": 10,
+    "tags": [],
+    "value": 81
+  },
+  {
+    "id": 60,
+    "timestamp": 1699268685,
+    "device_id": 3,
+    "location_id": 6,
+    "metric_id": 3,
+    "tags": [],
+    "value": 75
+  },
+  {
+    "id": 61,
+    "timestamp": 1699268681,
+    "device_id": 4,
+    "location_id": 10,
+    "metric_id": 10,
+    "tags": [],
+    "value": 81
+  },
+  {
+    "id": 62,
+    "timestamp": 1699268681,
+    "device_id": 5,
+    "location_id": 6,
+    "metric_id": 9,
+    "tags": [],
+    "value": 68
+  },
+  {
+    "id": 63,
+    "timestamp": 1699268681,
+    "device_id": 3,
+    "location_id": 5,
+    "metric_id": 3,
+    "tags": [],
+    "value": 94
+  },
+  {
+    "id": 64,
+    "timestamp": 1699268682,
+    "device_id": 7,
+    "location_id": 4,
+    "metric_id": 2,
+    "tags": [],
+    "value": 22
+  },
+  {
+    "id": 65,
+    "timestamp": 1699268683,
+    "device_id": 2,
+    "location_id": 10,
+    "metric_id": 4,
+    "tags": [],
+    "value": 19
+  },
+  {
+    "id": 66,
+    "timestamp": 1699268682,
+    "device_id": 7,
+    "location_id": 2,
+    "metric_id": 6,
+    "tags": [],
+    "value": false
+  },
+  {
+    "id": 67,
+    "timestamp": 1699268682,
+    "device_id": 4,
+    "location_id": 9,
+    "metric_id": 5,
+    "tags": [],
+    "value": 3
+  },
+  {
+    "id": 68,
+    "timestamp": 1699268683,
+    "device_id": 3,
+    "location_id": 1,
+    "metric_id": 8,
+    "tags": [],
+    "value": 25
+  },
+  {
+    "id": 69,
+    "timestamp": 1699268684,
+    "device_id": 5,
+    "location_id": 1,
+    "metric_id": 2,
+    "tags": [],
+    "value": 73
+  },
+  {
+    "id": 70,
+    "timestamp": 1699268685,
+    "device_id": 10,
+    "location_id": 5,
+    "metric_id": 5,
+    "tags": [],
+    "value": 35
+  },
+  {
+    "id": 71,
+    "timestamp": 1699268683,
+    "device_id": 3,
+    "location_id": 10,
+    "metric_id": 1,
+    "tags": [],
+    "value": 63
+  },
+  {
+    "id": 72,
+    "timestamp": 1699268683,
+    "device_id": 3,
+    "location_id": 2,
+    "metric_id": 9,
+    "tags": [],
+    "value": 8
+  },
+  {
+    "id": 73,
+    "timestamp": 1699268684,
+    "device_id": 5,
+    "location_id": 9,
+    "metric_id": 6,
+    "tags": [],
+    "value": false
+  },
+  {
+    "id": 74,
+    "timestamp": 1699268684,
+    "device_id": 3,
+    "location_id": 4,
+    "metric_id": 7,
+    "tags": [],
+    "value": 61
+  },
+  {
+    "id": 75,
+    "timestamp": 1699268684,
+    "device_id": 3,
+    "location_id": 4,
+    "metric_id": 4,
+    "tags": [],
+    "value": 48
+  },
+  {
+    "id": 76,
+    "timestamp": 1699268684,
+    "device_id": 7,
+    "location_id": 2,
+    "metric_id": 3,
+    "tags": [],
+    "value": 60
+  },
+  {
+    "id": 77,
+    "timestamp": 1699268684,
+    "device_id": 2,
+    "location_id": 5,
+    "metric_id": 4,
+    "tags": [],
+    "value": 92
+  },
+  {
+    "id": 78,
+    "timestamp": 1699268685,
+    "device_id": 10,
+    "location_id": 2,
+    "metric_id": 7,
+    "tags": [],
+    "value": 83
+  },
+  {
+    "id": 79,
+    "timestamp": 1699268685,
+    "device_id": 1,
+    "location_id": 7,
+    "metric_id": 10,
+    "tags": [],
+    "value": 71
+  },
+  {
+    "id": 80,
+    "timestamp": 1699268685,
+    "device_id": 8,
+    "location_id": 10,
+    "metric_id": 2,
+    "tags": [],
+    "value": 55
+  },
+  {
+    "id": 81,
+    "timestamp": 1699268682,
+    "device_id": 3,
+    "location_id": 2,
+    "metric_id": 7,
+    "tags": [],
+    "value": 18
+  },
+  {
+    "id": 82,
+    "timestamp": 1699268682,
+    "device_id": 1,
+    "location_id": 5,
+    "metric_id": 3,
+    "tags": [],
+    "value": 71
+  },
+  {
+    "id": 83,
+    "timestamp": 1699268683,
+    "device_id": 2,
+    "location_id": 5,
+    "metric_id": 8,
+    "tags": [],
+    "value": 56
+  },
+  {
+    "id": 84,
+    "timestamp": 1699268684,
+    "device_id": 6,
+    "location_id": 9,
+    "metric_id": 2,
+    "tags": [],
+    "value": 99
+  },
+  {
+    "id": 85,
+    "timestamp": 1699268684,
+    "device_id": 7,
+    "location_id": 7,
+    "metric_id": 4,
+    "tags": [],
+    "value": 56
+  },
+  {
+    "id": 86,
+    "timestamp": 1699268683,
+    "device_id": 2,
+    "location_id": 10,
+    "metric_id": 5,
+    "tags": [],
+    "value": 35
+  },
+  {
+    "id": 87,
+    "timestamp": 1699268683,
+    "device_id": 1,
+    "location_id": 9,
+    "metric_id": 5,
+    "tags": [],
+    "value": 82
+  },
+  {
+    "id": 88,
+    "timestamp": 1699268683,
+    "device_id": 9,
+    "location_id": 10,
+    "metric_id": 8,
+    "tags": [],
+    "value": 92
+  },
+  {
+    "id": 89,
+    "timestamp": 1699268684,
+    "device_id": 8,
+    "location_id": 5,
+    "metric_id": 3,
+    "tags": [],
+    "value": 79
+  },
+  {
+    "id": 90,
+    "timestamp": 1699268684,
+    "device_id": 10,
+    "location_id": 5,
+    "metric_id": 1,
+    "tags": [],
+    "value": 74
+  },
+  {
+    "id": 91,
+    "timestamp": 1699268684,
+    "device_id": 8,
+    "location_id": 9,
+    "metric_id": 7,
+    "tags": [],
+    "value": 86
+  },
+  {
+    "id": 92,
+    "timestamp": 1699268684,
+    "device_id": 1,
+    "location_id": 9,
+    "metric_id": 10,
+    "tags": [],
+    "value": 60
+  },
+  {
+    "id": 93,
+    "timestamp": 1699268685,
+    "device_id": 9,
+    "location_id": 2,
+    "metric_id": 4,
+    "tags": [],
+    "value": 40
+  },
+  {
+    "id": 94,
+    "timestamp": 1699268686,
+    "device_id": 8,
+    "location_id": 3,
+    "metric_id": 5,
+    "tags": [],
+    "value": 15
+  },
+  {
+    "id": 95,
+    "timestamp": 1699268687,
+    "device_id": 7,
+    "location_id": 1,
+    "metric_id": 1,
+    "tags": [],
+    "value": 19
+  },
+  {
+    "id": 96,
+    "timestamp": 1699268685,
+    "device_id": 4,
+    "location_id": 3,
+    "metric_id": 9,
+    "tags": [],
+    "value": 84
+  },
+  {
+    "id": 97,
+    "timestamp": 1699268685,
+    "device_id": 6,
+    "location_id": 2,
+    "metric_id": 7,
+    "tags": [],
+    "value": 36
+  },
+  {
+    "id": 98,
+    "timestamp": 1699268685,
+    "device_id": 3,
+    "location_id": 9,
+    "metric_id": 8,
+    "tags": [],
+    "value": 90
+  },
+  {
+    "id": 99,
+    "timestamp": 1699268686,
+    "device_id": 7,
+    "location_id": 10,
+    "metric_id": 1,
+    "tags": [],
+    "value": 66
+  },
+  {
+    "id": 100,
+    "timestamp": 1699268686,
+    "device_id": 3,
+    "location_id": 9,
+    "metric_id": 4,
+    "tags": [],
+    "value": 59
+  },
+  {
+    "id": 101,
+    "timestamp": 1699268683,
+    "device_id": 9,
+    "location_id": 2,
+    "metric_id": 10,
+    "tags": [],
+    "value": 60
+  },
+  {
+    "id": 102,
+    "timestamp": 1699268683,
+    "device_id": 8,
+    "location_id": 7,
+    "metric_id": 5,
+    "tags": [],
+    "value": 14
+  },
+  {
+    "id": 103,
+    "timestamp": 1699268684,
+    "device_id": 5,
+    "location_id": 3,
+    "metric_id": 1,
+    "tags": [],
+    "value": 66
+  },
+  {
+    "id": 104,
+    "timestamp": 1699268685,
+    "device_id": 5,
+    "location_id": 5,
+    "metric_id": 8,
+    "tags": [],
+    "value": 99
+  },
+  {
+    "id": 105,
+    "timestamp": 1699268685,
+    "device_id": 7,
+    "location_id": 3,
+    "metric_id": 8,
+    "tags": [],
+    "value": 68
+  },
+  {
+    "id": 106,
+    "timestamp": 1699268684,
+    "device_id": 4,
+    "location_id": 7,
+    "metric_id": 3,
+    "tags": [],
+    "value": 63
+  },
+  {
+    "id": 107,
+    "timestamp": 1699268684,
+    "device_id": 3,
+    "location_id": 6,
+    "metric_id": 8,
+    "tags": [],
+    "value": 23
+  },
+  {
+    "id": 108,
+    "timestamp": 1699268684,
+    "device_id": 10,
+    "location_id": 4,
+    "metric_id": 5,
+    "tags": [],
+    "value": 5
+  },
+  {
+    "id": 109,
+    "timestamp": 1699268685,
+    "device_id": 5,
+    "location_id": 4,
+    "metric_id": 7,
+    "tags": [],
+    "value": 43
+  },
+  {
+    "id": 110,
+    "timestamp": 1699268685,
+    "device_id": 7,
+    "location_id": 10,
+    "metric_id": 1,
+    "tags": [],
+    "value": 21
+  },
+  {
+    "id": 111,
+    "timestamp": 1699268685,
+    "device_id": 1,
+    "location_id": 7,
+    "metric_id": 3,
+    "tags": [],
+    "value": 27
+  },
+  {
+    "id": 112,
+    "timestamp": 1699268685,
+    "device_id": 4,
+    "location_id": 1,
+    "metric_id": 7,
+    "tags": [],
+    "value": 76
+  },
+  {
+    "id": 113,
+    "timestamp": 1699268686,
+    "device_id": 9,
+    "location_id": 3,
+    "metric_id": 5,
+    "tags": [],
+    "value": 90
+  },
+  {
+    "id": 114,
+    "timestamp": 1699268687,
+    "device_id": 3,
+    "location_id": 3,
+    "metric_id": 1,
+    "tags": [],
+    "value": 92
+  },
+  {
+    "id": 115,
+    "timestamp": 1699268688,
+    "device_id": 2,
+    "location_id": 9,
+    "metric_id": 10,
+    "tags": [],
+    "value": 87
+  },
+  {
+    "id": 116,
+    "timestamp": 1699268686,
+    "device_id": 5,
+    "location_id": 9,
+    "metric_id": 9,
+    "tags": [],
+    "value": 25
+  },
+  {
+    "id": 117,
+    "timestamp": 1699268686,
+    "device_id": 6,
+    "location_id": 6,
+    "metric_id": 10,
+    "tags": [],
+    "value": 76
+  },
+  {
+    "id": 118,
+    "timestamp": 1699268686,
+    "device_id": 1,
+    "location_id": 2,
+    "metric_id": 3,
+    "tags": [],
+    "value": 42
+  },
+  {
+    "id": 119,
+    "timestamp": 1699268687,
+    "device_id": 2,
+    "location_id": 10,
+    "metric_id": 5,
+    "tags": [],
+    "value": 39
+  },
+  {
+    "id": 120,
+    "timestamp": 1699268687,
+    "device_id": 8,
+    "location_id": 8,
+    "metric_id": 7,
+    "tags": [],
+    "value": 25
+  },
+  {
+    "id": 121,
+    "timestamp": 1699268684,
+    "device_id": 3,
+    "location_id": 8,
+    "metric_id": 1,
+    "tags": [],
+    "value": 51
+  },
+  {
+    "id": 122,
+    "timestamp": 1699268684,
+    "device_id": 2,
+    "location_id": 4,
+    "metric_id": 8,
+    "tags": [],
+    "value": 53
+  },
+  {
+    "id": 123,
+    "timestamp": 1699268685,
+    "device_id": 4,
+    "location_id": 8,
+    "metric_id": 6,
+    "tags": [],
+    "value": false
+  },
+  {
+    "id": 124,
+    "timestamp": 1699268686,
+    "device_id": 10,
+    "location_id": 8,
+    "metric_id": 8,
+    "tags": [],
+    "value": 16
+  },
+  {
+    "id": 125,
+    "timestamp": 1699268686,
+    "device_id": 2,
+    "location_id": 6,
+    "metric_id": 10,
+    "tags": [],
+    "value": 1
+  },
+  {
+    "id": 126,
+    "timestamp": 1699268685,
+    "device_id": 6,
+    "location_id": 7,
+    "metric_id": 6,
+    "tags": [],
+    "value": false
+  },
+  {
+    "id": 127,
+    "timestamp": 1699268685,
+    "device_id": 6,
+    "location_id": 6,
+    "metric_id": 5,
+    "tags": [],
+    "value": 5
+  },
+  {
+    "id": 128,
+    "timestamp": 1699268685,
+    "device_id": 5,
+    "location_id": 6,
+    "metric_id": 7,
+    "tags": [],
+    "value": 71
+  },
+  {
+    "id": 129,
+    "timestamp": 1699268686,
+    "device_id": 4,
+    "location_id": 2,
+    "metric_id": 7,
+    "tags": [],
+    "value": 21
+  },
+  {
+    "id": 130,
+    "timestamp": 1699268686,
+    "device_id": 6,
+    "location_id": 8,
+    "metric_id": 2,
+    "tags": [],
+    "value": 92
+  },
+  {
+    "id": 131,
+    "timestamp": 1699268686,
+    "device_id": 3,
+    "location_id": 9,
+    "metric_id": 3,
+    "tags": [],
+    "value": 45
+  },
+  {
+    "id": 132,
+    "timestamp": 1699268686,
+    "device_id": 1,
+    "location_id": 7,
+    "metric_id": 7,
+    "tags": [],
+    "value": 85
+  },
+  {
+    "id": 133,
+    "timestamp": 1699268687,
+    "device_id": 2,
+    "location_id": 2,
+    "metric_id": 5,
+    "tags": [],
+    "value": 82
+  },
+  {
+    "id": 134,
+    "timestamp": 1699268687,
+    "device_id": 8,
+    "location_id": 5,
+    "metric_id": 2,
+    "tags": [],
+    "value": 95
+  },
+  {
+    "id": 135,
+    "timestamp": 1699268688,
+    "device_id": 7,
+    "location_id": 9,
+    "metric_id": 1,
+    "tags": [],
+    "value": 6
+  },
+  {
+    "id": 136,
+    "timestamp": 1699268687,
+    "device_id": 10,
+    "location_id": 1,
+    "metric_id": 1,
+    "tags": [],
+    "value": 27
+  },
+  {
+    "id": 137,
+    "timestamp": 1699268687,
+    "device_id": 1,
+    "location_id": 9,
+    "metric_id": 4,
+    "tags": [],
+    "value": 34
+  },
+  {
+    "id": 138,
+    "timestamp": 1699268688,
+    "device_id": 2,
+    "location_id": 3,
+    "metric_id": 5,
+    "tags": [],
+    "value": 34
+  },
+  {
+    "id": 139,
+    "timestamp": 1699268688,
+    "device_id": 1,
+    "location_id": 10,
+    "metric_id": 6,
+    "tags": [],
+    "value": false
+  },
+  {
+    "id": 140,
+    "timestamp": 1699268688,
+    "device_id": 7,
+    "location_id": 5,
+    "metric_id": 4,
+    "tags": [],
+    "value": 39
+  },
+  {
+    "id": 141,
+    "timestamp": 1699268685,
+    "device_id": 9,
+    "location_id": 3,
+    "metric_id": 5,
+    "tags": [],
+    "value": 74
+  },
+  {
+    "id": 142,
+    "timestamp": 1699268685,
+    "device_id": 1,
+    "location_id": 2,
+    "metric_id": 3,
+    "tags": [],
+    "value": 88
+  },
+  {
+    "id": 143,
+    "timestamp": 1699268685,
+    "device_id": 2,
+    "location_id": 10,
+    "metric_id": 6,
+    "tags": [],
+    "value": true
+  },
+  {
+    "id": 144,
+    "timestamp": 1699268685,
+    "device_id": 9,
+    "location_id": 5,
+    "metric_id": 1,
+    "tags": [],
+    "value": 59
+  },
+  {
+    "id": 145,
+    "timestamp": 1699268686,
+    "device_id": 2,
+    "location_id": 2,
+    "metric_id": 4,
+    "tags": [],
+    "value": 90
+  },
+  {
+    "id": 146,
+    "timestamp": 1699268686,
+    "device_id": 2,
+    "location_id": 4,
+    "metric_id": 8,
+    "tags": [],
+    "value": 10
+  },
+  {
+    "id": 147,
+    "timestamp": 1699268686,
+    "device_id": 6,
+    "location_id": 3,
+    "metric_id": 4,
+    "tags": [],
+    "value": 17
+  },
+  {
+    "id": 148,
+    "timestamp": 1699268687,
+    "device_id": 8,
+    "location_id": 2,
+    "metric_id": 9,
+    "tags": [],
+    "value": 29
+  },
+  {
+    "id": 149,
+    "timestamp": 1699268687,
+    "device_id": 10,
+    "location_id": 7,
+    "metric_id": 5,
+    "tags": [],
+    "value": 66
+  },
+  {
+    "id": 150,
+    "timestamp": 1699268688,
+    "device_id": 9,
+    "location_id": 1,
+    "metric_id": 9,
+    "tags": [],
+    "value": 7
+  },
+  {
+    "id": 151,
+    "timestamp": 1699268687,
+    "device_id": 8,
+    "location_id": 3,
+    "metric_id": 9,
+    "tags": [],
+    "value": 33
+  },
+  {
+    "id": 152,
+    "timestamp": 1699268687,
+    "device_id": 9,
+    "location_id": 3,
+    "metric_id": 5,
+    "tags": [],
+    "value": 68
+  },
+  {
+    "id": 153,
+    "timestamp": 1699268688,
+    "device_id": 1,
+    "location_id": 7,
+    "metric_id": 4,
+    "tags": [],
+    "value": 38
+  },
+  {
+    "id": 154,
+    "timestamp": 1699268689,
+    "device_id": 2,
+    "location_id": 5,
+    "metric_id": 3,
+    "tags": [],
+    "value": 6
+  },
+  {
+    "id": 155,
+    "timestamp": 1699268690,
+    "device_id": 5,
+    "location_id": 5,
+    "metric_id": 5,
+    "tags": [],
+    "value": 43
+  },
+  {
+    "id": 156,
+    "timestamp": 1699268688,
+    "device_id": 3,
+    "location_id": 8,
+    "metric_id": 9,
+    "tags": [],
+    "value": 78
+  },
+  {
+    "id": 157,
+    "timestamp": 1699268688,
+    "device_id": 7,
+    "location_id": 10,
+    "metric_id": 3,
+    "tags": [],
+    "value": 68
+  },
+  {
+    "id": 158,
+    "timestamp": 1699268689,
+    "device_id": 6,
+    "location_id": 4,
+    "metric_id": 9,
+    "tags": [],
+    "value": 8
+  },
+  {
+    "id": 159,
+    "timestamp": 1699268689,
+    "device_id": 7,
+    "location_id": 2,
+    "metric_id": 6,
+    "tags": [],
+    "value": true
+  },
+  {
+    "id": 160,
+    "timestamp": 1699268690,
+    "device_id": 3,
+    "location_id": 4,
+    "metric_id": 10,
+    "tags": [],
+    "value": 8
+  },
+  {
+    "id": 161,
+    "timestamp": 1699268686,
+    "device_id": 2,
+    "location_id": 10,
+    "metric_id": 10,
+    "tags": [],
+    "value": 1
+  },
+  {
+    "id": 162,
+    "timestamp": 1699268686,
+    "device_id": 2,
+    "location_id": 6,
+    "metric_id": 6,
+    "tags": [],
+    "value": true
+  },
+  {
+    "id": 163,
+    "timestamp": 1699268687,
+    "device_id": 6,
+    "location_id": 1,
+    "metric_id": 1,
+    "tags": [],
+    "value": 74
+  },
+  {
+    "id": 164,
+    "timestamp": 1699268687,
+    "device_id": 9,
+    "location_id": 8,
+    "metric_id": 8,
+    "tags": [],
+    "value": 15
+  },
+  {
+    "id": 165,
+    "timestamp": 1699268687,
+    "device_id": 4,
+    "location_id": 6,
+    "metric_id": 6,
+    "tags": [],
+    "value": true
+  },
+  {
+    "id": 166,
+    "timestamp": 1699268687,
+    "device_id": 8,
+    "location_id": 6,
+    "metric_id": 7,
+    "tags": [],
+    "value": 65
+  },
+  {
+    "id": 167,
+    "timestamp": 1699268687,
+    "device_id": 2,
+    "location_id": 7,
+    "metric_id": 5,
+    "tags": [],
+    "value": 23
+  },
+  {
+    "id": 168,
+    "timestamp": 1699268688,
+    "device_id": 6,
+    "location_id": 10,
+    "metric_id": 4,
+    "tags": [],
+    "value": 22
+  },
+  {
+    "id": 169,
+    "timestamp": 1699268688,
+    "device_id": 6,
+    "location_id": 2,
+    "metric_id": 6,
+    "tags": [],
+    "value": false
+  },
+  {
+    "id": 170,
+    "timestamp": 1699268688,
+    "device_id": 5,
+    "location_id": 4,
+    "metric_id": 4,
+    "tags": [],
+    "value": 79
+  },
+  {
+    "id": 171,
+    "timestamp": 1699268688,
+    "device_id": 9,
+    "location_id": 1,
+    "metric_id": 3,
+    "tags": [],
+    "value": 92
+  },
+  {
+    "id": 172,
+    "timestamp": 1699268689,
+    "device_id": 10,
+    "location_id": 9,
+    "metric_id": 9,
+    "tags": [],
+    "value": 18
+  },
+  {
+    "id": 173,
+    "timestamp": 1699268689,
+    "device_id": 6,
+    "location_id": 2,
+    "metric_id": 6,
+    "tags": [],
+    "value": true
+  },
+  {
+    "id": 174,
+    "timestamp": 1699268689,
+    "device_id": 5,
+    "location_id": 1,
+    "metric_id": 10,
+    "tags": [],
+    "value": 28
+  },
+  {
+    "id": 175,
+    "timestamp": 1699268690,
+    "device_id": 8,
+    "location_id": 7,
+    "metric_id": 5,
+    "tags": [],
+    "value": 62
+  },
+  {
+    "id": 176,
+    "timestamp": 1699268689,
+    "device_id": 5,
+    "location_id": 10,
+    "metric_id": 8,
+    "tags": [],
+    "value": 57
+  },
+  {
+    "id": 177,
+    "timestamp": 1699268690,
+    "device_id": 7,
+    "location_id": 10,
+    "metric_id": 5,
+    "tags": [],
+    "value": 1
+  },
+  {
+    "id": 178,
+    "timestamp": 1699268690,
+    "device_id": 2,
+    "location_id": 6,
+    "metric_id": 9,
+    "tags": [],
+    "value": 12
+  },
+  {
+    "id": 179,
+    "timestamp": 1699268690,
+    "device_id": 7,
+    "location_id": 7,
+    "metric_id": 3,
+    "tags": [],
+    "value": 56
+  },
+  {
+    "id": 180,
+    "timestamp": 1699268690,
+    "device_id": 7,
+    "location_id": 6,
+    "metric_id": 5,
+    "tags": [],
+    "value": 39
+  },
+  {
+    "id": 181,
+    "timestamp": 1699268687,
+    "device_id": 3,
+    "location_id": 5,
+    "metric_id": 8,
+    "tags": [],
+    "value": 20
+  },
+  {
+    "id": 182,
+    "timestamp": 1699268688,
+    "device_id": 2,
+    "location_id": 8,
+    "metric_id": 5,
+    "tags": [],
+    "value": 6
+  },
+  {
+    "id": 183,
+    "timestamp": 1699268688,
+    "device_id": 1,
+    "location_id": 2,
+    "metric_id": 3,
+    "tags": [],
+    "value": 35
+  },
+  {
+    "id": 184,
+    "timestamp": 1699268689,
+    "device_id": 7,
+    "location_id": 2,
+    "metric_id": 7,
+    "tags": [],
+    "value": 85
+  },
+  {
+    "id": 185,
+    "timestamp": 1699268689,
+    "device_id": 7,
+    "location_id": 10,
+    "metric_id": 7,
+    "tags": [],
+    "value": 78
+  },
+  {
+    "id": 186,
+    "timestamp": 1699268688,
+    "device_id": 9,
+    "location_id": 5,
+    "metric_id": 7,
+    "tags": [],
+    "value": 95
+  },
+  {
+    "id": 187,
+    "timestamp": 1699268688,
+    "device_id": 8,
+    "location_id": 6,
+    "metric_id": 7,
+    "tags": [],
+    "value": 46
+  },
+  {
+    "id": 188,
+    "timestamp": 1699268679,
+    "device_id": 7,
+    "location_id": 4,
+    "metric_id": 5,
+    "tags": [],
+    "value": 50
+  },
+  {
+    "id": 189,
+    "timestamp": 1699268679,
+    "device_id": 9,
+    "location_id": 10,
+    "metric_id": 2,
+    "tags": [],
+    "value": 63
+  },
+  {
+    "id": 190,
+    "timestamp": 1699268679,
+    "device_id": 8,
+    "location_id": 6,
+    "metric_id": 2,
+    "tags": [],
+    "value": 69
+  },
+  {
+    "id": 191,
+    "timestamp": 1699268680,
+    "device_id": 9,
+    "location_id": 9,
+    "metric_id": 8,
+    "tags": [],
+    "value": 36
+  },
+  {
+    "id": 192,
+    "timestamp": 1699268681,
+    "device_id": 5,
+    "location_id": 4,
+    "metric_id": 7,
+    "tags": [],
+    "value": 55
+  },
+  {
+    "id": 193,
+    "timestamp": 1699268680,
+    "device_id": 9,
+    "location_id": 3,
+    "metric_id": 8,
+    "tags": [],
+    "value": 89
+  },
+  {
+    "id": 194,
+    "timestamp": 1699268679,
+    "device_id": 5,
+    "location_id": 5,
+    "metric_id": 9,
+    "tags": [],
+    "value": 17
+  },
+  {
+    "id": 195,
+    "timestamp": 1699268679,
+    "device_id": 2,
+    "location_id": 6,
+    "metric_id": 8,
+    "tags": [],
+    "value": 33
+  },
+  {
+    "id": 196,
+    "timestamp": 1699268680,
+    "device_id": 3,
+    "location_id": 4,
+    "metric_id": 5,
+    "tags": [],
+    "value": 44
+  },
+  {
+    "id": 197,
+    "timestamp": 1699268680,
+    "device_id": 9,
+    "location_id": 1,
+    "metric_id": 4,
+    "tags": [],
+    "value": 44
+  },
+  {
+    "id": 198,
+    "timestamp": 1699268681,
+    "device_id": 1,
+    "location_id": 6,
+    "metric_id": 3,
+    "tags": [],
+    "value": 63
+  },
+  {
+    "id": 199,
+    "timestamp": 1699268679,
+    "device_id": 2,
+    "location_id": 4,
+    "metric_id": 3,
+    "tags": [],
+    "value": 85
+  },
+  {
+    "id": 200,
+    "timestamp": 1699268679,
+    "device_id": 1,
+    "location_id": 9,
+    "metric_id": 8,
+    "tags": [],
+    "value": 41
+  },
+  {
+    "id": 201,
+    "timestamp": 1699268680,
+    "device_id": 10,
+    "location_id": 2,
+    "metric_id": 5,
+    "tags": [],
+    "value": 89
+  }
+]

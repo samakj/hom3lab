@@ -1,0 +1,13 @@
+[
+  { "id": 1, "name": "temperature", "abbreviation": "temp", "unit": "°c" },
+  { "id": 2, "name": "humidity", "abbreviation": "hum", "unit": "%" },
+  { "id": 3, "name": "name", "abbreviation": "name" },
+  { "id": 4, "name": "percentage", "abbreviation": "perc", "unit": "%" },
+  { "id": 5, "name": "distance", "abbreviation": "dist", "unit": "m" },
+  { "id": 6, "name": "open", "abbreviation": "open" },
+  { "id": 7, "name": "connected", "abbreviation": "conn" },
+  { "id": 8, "name": "power", "abbreviation": "pow", "unit": "W" },
+  { "id": 9, "name": "voltage", "abbreviation": "volt", "unit": "V" },
+  { "id": 10, "name": "current", "abbreviation": "cur", "unit": "A" },
+  { "id": 11, "name": "on", "abbreviation": "on" }
+]
