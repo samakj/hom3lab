@@ -11,7 +11,7 @@ from starlette.websockets import (
 from fastapi.requests import HTTPConnection
 
 from shared.python.models.session import Session
-from shared.python.extensions.speedyapi.logger import Logger
+from shared.python.speedyapi.logger import Logger
 
 
 class WebSocket:

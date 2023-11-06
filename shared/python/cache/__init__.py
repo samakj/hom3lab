@@ -1,14 +1,14 @@
 import inspect
-import json
+import asyncio
 import logging
 from functools import wraps
 from typing import Any, Callable, Optional, Self
 from fastapi import Request, Response
 from pydantic import BaseModel
-from aioredis import Redis
+from redis.asyncio import Redis
 from shared.python.models.authorisation import UserCredentials
 
-from shared.python.extensions.speedyapi import Logger
+from shared.python.speedyapi import Logger
 from shared.python.json import serialise_json, parse_json
 
 
@@ -43,13 +43,31 @@ class Cache:
 
     def __call__(self) -> Self:
         return self
-
+    
     async def initialise(self) -> None:
         self.logger.info(
             f"Connecting to cache at: redis://{self.host}:{self.port}, "
             + f"username: {self.user if self.user is not None else 'None'}"
         )
 
+        success = False
+
+        while not success:
+            try:
+                await self._initialise()
+                success = True
+            except Exception as error:
+                self.logger.error(f"Failed to connect to cache, retrying in 5s: {error}")
+                await asyncio.sleep(5)
+                await self.initialise()
+
+        self.logger.info(
+            f"Connected to cache at:  redis://{self.host}:{self.port}, "
+            + f"username: {self.user if self.user is not None else 'None'}"
+        )
+
+
+    async def _initialise(self) -> None:
         user_prefix = ""
         cache_name_suffix = ""
 
@@ -61,17 +79,10 @@ class Cache:
         if self.name is not None:
             cache_name_suffix = f"/{self.name}"
 
-        try:
-            self.client = await Redis.from_url(
-                f"redis://{user_prefix}{self.host}:{self.port}{cache_name_suffix}"
-            )
+        self.client = await Redis.from_url(
+            f"redis://{user_prefix}{self.host}:{self.port}{cache_name_suffix}"
+        )
 
-            self.logger.info(
-                f"Connected to cache at:  redis://{self.host}:{self.port}, "
-                + f"username: {self.user if self.user is not None else 'None'}"
-            )
-        except Exception as error:
-            self.logger.error(f"Failed to connect to cache: {error}")
 
     def alias_key(self, key: str) -> str:
         if self.alias is not None:

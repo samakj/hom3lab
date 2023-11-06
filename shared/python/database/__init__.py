@@ -1,11 +1,11 @@
 import logging
-from typing import Optional
+from typing import Optional, Self
+import asyncio
 import asyncpg
 from asyncpg import Connection, Pool
 from fastapi import HTTPException
-from fastapi.requests import HTTPConnection
 
-from shared.python.extensions.speedyapi import Logger
+from shared.python.speedyapi import Logger
 
 
 class Database:
@@ -13,7 +13,7 @@ class Database:
     password: str
     host: str
     port: str
-    name: str
+    name: Optional[str] = None
     pool: Pool
     logger: Logger
 
@@ -23,7 +23,7 @@ class Database:
         password: str,
         host: str,
         port: str,
-        name: str,
+        name: Optional[str] = None,
         logger: Optional[Logger] = None,
     ) -> None:
         self.user = user
@@ -41,17 +41,31 @@ class Database:
             f"Connecting to db at: postgresql://{self.host}:{self.port}, "
             + f"username: {self.user if self.user is not None else 'None'}"
         )
+
+        success = False
+
+        while not success:
+            try:
+                await self._initialise()
+                success = True
+            except Exception as error:
+                self.logger.error(f"Failed to connect to db, retyring in 5s: {error}")
+                await asyncio.sleep(5)
+                await self.initialise()
+
+        self.logger.info(
+            f"Connected to db at:  postgresql://{self.host}:{self.port}, "
+            + f"username: {self.user if self.user is not None else 'None'}"
+        )
+
+    async def _initialise(self) -> None:
         self.pool = await asyncpg.create_pool(
             dsn=(
                 "postgresql://"
                 + f"{self.user}:{self.password}@"
                 + f"{self.host}:{self.port}/"
-                + f"{self.name}"
+                + f"{self.name or ''}"
             )
-        )
-        self.logger.info(
-            f"Connected to db at:  postgresql://{self.host}:{self.port}, "
-            + f"username: {self.user if self.user is not None else 'None'}"
         )
 
     def raise_database_http_error(self, error: Exception) -> None:

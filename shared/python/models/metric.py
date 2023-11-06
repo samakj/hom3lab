@@ -8,5 +8,5 @@ class CreateMetric(BaseModel):
     unit: Optional[str] = Field(description="The unit of the metric.", default=None)
 
 
-class Metric(BaseModel):
+class Metric(CreateMetric):
     id: int = Field(description="The id of the metric.")

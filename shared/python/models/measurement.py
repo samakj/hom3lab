@@ -1,9 +1,7 @@
 from datetime import datetime
 from decimal import Decimal
-from typing import Literal, Optional, Union
+from typing import Optional, Union
 from pydantic import BaseModel, Field
-
-type ValueType = Union[bool, Decimal, int, str, None]
 
 
 class CreateMeasurement(BaseModel):
@@ -14,7 +12,7 @@ class CreateMeasurement(BaseModel):
     location_id: int = Field(description="The location id of the measurement.")
     metric_id: int = Field(description="The metric id of the measurement.")
     tags: Optional[list[str]] = Field(description="A list of tags for the measurement.")
-    value: ValueType = Field(description="The value measured.", default=None)
+    value:  Union[bool, Decimal, int, str, None] = Field(description="The value measured.", default=None)
 
 
 class Measurement(CreateMeasurement):
