@@ -1,13 +1,9 @@
 # Python
-venv
-bin
-include
-lib
-lib64
+.venv
 
 # Javascript
-node_modules
-build
+node_modules/
+public/
 
 # Byte-compiled / optimized / DLL files
 .idea/
